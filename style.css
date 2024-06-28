@@ -94,6 +94,8 @@ button {
     justify-content: center;
     margin: 20px 20px;
     text-align: center;
+    gap: 10px;
+    padding-bottom: 40px;
 }
 
 .blue-frame {
@@ -105,4 +107,52 @@ button {
     width: 50px 40px;
     padding: 50px;
     margin: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#s3quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0px 80px;
+    text-align: left;
+}
+
+#s3quoter {
+    align-self: flex-end;
+    padding-right: 90px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.c2a {
+    background-color: #3882F6;
+    border-radius: 8px;
+    background-size: 50px 150px;
+    padding: 5px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-left {
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.bottom-right {
+    align-items: flex-end;
 }
