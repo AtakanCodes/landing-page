@@ -23,6 +23,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 0px 350px;
 }
 
 .header-top {
@@ -95,24 +96,27 @@ button {
     justify-content: center;
     margin: 20px 20px;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
     padding-bottom: 40px;
 }
 
 .blue-frame {
     background-color: white;
     border-color: #3882F6;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 10px;
     border-style: solid;
-    width: 50px 40px;
-    padding: 50px;
+    padding: 70px;
     margin: 20px;
 }
 
-.quote {
+.section-3 {
+    padding: 70px 440px;
     background-color: #E5E7EB;
-    padding: 80px;
+}
+
+.quote {
+    /* padding: 80px; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -129,7 +133,7 @@ button {
 
 #s3quoter {
     align-self: flex-end;
-    padding-right: 90px;
+    padding-right: 150px;
     font-weight: 900;
     font-size: 30px;
 }
