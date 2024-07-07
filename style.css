@@ -73,6 +73,7 @@ button {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 8px;
 }
 
 .header-sign-up {
